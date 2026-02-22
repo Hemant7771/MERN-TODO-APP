@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.input-row input {
+  flex: 1;
+  padding: 12px 15px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.input-row button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  background: #00e676;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.input-row button:hover {
+  background: #00c853;
+  transform: translateY(-1px);
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-item {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  backdrop-filter: blur(10px);
+  transition: 0.2s;
+}
+
+.task-item:hover {
+  transform: translateX(5px);
+}
